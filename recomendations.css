@@ -1,0 +1,42 @@
+
+#hero-recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 50%;
+    gap: 20px;
+    padding: 20px 0;
+    overflow-y: scroll;
+
+}
+
+#hero-recommendations.show {
+    display: flex;
+}
+
+#hero-recommendations.hide {
+    display: none;
+}
+
+#hero-recommendations .recommendation {
+    background: white;
+    width: 500px;
+    box-shadow: 0px 0px 11px 1px #727171a3;
+    border-radius: 10px;
+}
+
+#hero-recommendations .recommendation img {
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#hero-recommendations .recommendation .details {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

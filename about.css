@@ -1,0 +1,68 @@
+.hero-place {
+    flex-direction: column;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 30px 30px 60px;
+}
+
+#hero-text h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+#hero-text p {
+    background: rgba(0, 0, 0, 0.19);
+    line-height: 1.4;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.visit {
+    padding: 12px 17px;
+    border-radius: 5px;
+    border: unset;
+    background: rgba(44, 82, 17, 0.93);
+    color: white;
+    width: fit-content;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 60px;
+}
+
+#workers {
+    display: flex;
+    gap: 50px;
+}
+#team .title h1 {
+    font-size: 64px;
+    width: 20%;
+    font-weight: bold;
+}
+
+#team .worker {
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(94, 126, 203, 0.13);
+    padding: 20px;
+    display: flex;
+}
+
+#team .worker img {
+    width: 25px;
+    height: 25px;
+}
+
+#team .worker .details {
+    padding: 20px;
+    width: 100%;
+}

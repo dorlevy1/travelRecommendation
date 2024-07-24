@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="recomendations.css">
+    <title>Travel Bloom</title>
+</head>
+<body>
+<nav id="navigation">
+    <div class="column">
+        <div class="logo"></div>
+        <h1>Travel Bloom</h1>
+    </div>
+    <div class="column">
+        <ul>
+            <li><a href="./index.html" id="home">Home </a></li>
+            <li><a href="./about.html" id="about">About </a></li>
+            <li><a href="./contact.html" id="contact">Contact Us </a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <div class="search" id="search">
+            <label for="searchInput" style="display: none">Search</label>
+            <input id="searchInput" type="text">
+            <button id="searchButton">Search</button>
+            <button id="clearButton">Clear</button>
+        </div>
+    </div>
+</nav>
+<section id="hero">
+    <div class="socials">
+        <a href=""><img src="twitter.webp" alt="twitter"></a>
+        <a href=""><img src="facebook.webp" alt="facebook"></a>
+        <a href=""><img src="instagram.webp" alt="instagram"></a>
+        <a href=""><img src="youtube.webp" alt="youtube"></a>
+    </div>
+    <div class="hero-place">
+        <div id="hero-text">
+            <h1>EXPLORE DREAM DESTINATION</h1>
+            <p class="description">Embark on a journey of discovery with Wanderlust Connect. Dive into our meticulously
+                crafted travel
+                guides and uncover hidden gems across the globe. Whether you crave the serenity of secluded beaches,
+                the
+                thrill of bustling cityscapes, or the tranquility of scenic landscapes, our curated collection
+                promises
+                to inspire your next adventure.</p>
+            <button class="visit">BOOK NOW</button>
+        </div>
+        <div class="hero-recommendations hide" id="hero-recommendations">
+            <div class="recommendation">
+                <img src="" alt="">
+                <div class="details">
+                    <h3>{{name}}</h3>
+                    <p>{{description}}</p>
+                    <button class="visit">Visit</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="travel_recommendation.js"></script>
+</body>
+</html>
